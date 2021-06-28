@@ -2,9 +2,9 @@
   "name": "node.js-rest-express-mysql",
   "version": "1.0.0",
   "description": "node js with express rest and mysql",
-  "main": "server.js",
+  "main": "main.js",
   "scripts": {
-    "npm start": "nodemon server.js",
+    "start": "nodemon main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
