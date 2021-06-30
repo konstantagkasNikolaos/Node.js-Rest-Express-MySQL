@@ -12,7 +12,7 @@ app.use(
 // parse requests of content-type: application/x-www-form-urlencoded
 app.use(express.json());
 
-// log request_
+// log request
 app.use((req, res, next) => {
   console.log(`A ${req.method} request was made to ${req.url}`);
   next();
