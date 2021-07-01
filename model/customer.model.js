@@ -105,7 +105,7 @@ Customer.removeAll = () => {
           ERROR: `Error occured while deleting all customers`,
           REASON: err,
         };
-        reject(err);
+        reject(errAdd);
       } else {
         resolve(res);
       }
